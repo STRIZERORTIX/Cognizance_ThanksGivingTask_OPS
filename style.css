@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url('https://wallpapercave.com/wp/F5z2P04.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+    font-family: 'montserrat', sans-serif;
+}
+
+.cont {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2));
+}
+
+#demo {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    color: #fff;
+    font-size: 3rem;
+    padding-top: 1em
+}
+
+.title {
+    text-align: center;
+    padding-top: 13rem;
+    font-size: 2rem;
+    color: #fff;
+}
